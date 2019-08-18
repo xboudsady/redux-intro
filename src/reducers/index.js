@@ -1,3 +1,6 @@
+import { combineReducers } from 'redux';
+
+
 // Our current state of our song
 // Static data, with an array of objects
 const songsReducer = () => {
@@ -17,3 +20,10 @@ const selectedSongReducer = (selectedSong=null, action) => {
 
   return selectedSong;
 };
+
+
+// Pass in an object with our reducer functions
+combineReducers({
+  songs: songsReducer,
+  selectedSong: selectedSongReducer
+});
