@@ -1,10 +1,10 @@
 // Action Creator
 
 // Named export
-export const selectSong = () => {
+export const selectSong = (song) => {
   // Return an action
   return {
-    tye: 'SONG_SELECTED',
+    type: 'SONG_SELECTED',
     payload: song
   };
 };
