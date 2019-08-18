@@ -1,6 +1,6 @@
 # Songs
 
-## Demo Site → [YouTube Videos](http://xboudsady-react-songs.s3-website-us-west-1.amazonaws.com)
+## Demo Site → [Songs](http://xboudsady-react-songs.s3-website-us-west-1.amazonaws.com)
 
 A simple React + Redux applicationd design to demonstrate how they both work together. One of the newer cocept is using the Redux Store, to handle most of the state change, whereas with React, the state was handled by the component.
 
