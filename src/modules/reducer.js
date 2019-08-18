@@ -1,5 +1,7 @@
 import ACTIONS from './action';
 
+
+// Reducers (Department)
 const claimsHistory = (oldListOfClaims = [], action) => {
   if (action.type === 'CREATE_CLAIM') {
     // we care about this action (FORM!)
