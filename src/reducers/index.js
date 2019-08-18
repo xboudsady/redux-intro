@@ -23,7 +23,7 @@ const selectedSongReducer = (selectedSong=null, action) => {
 
 
 // Pass in an object with our reducer functions
-combineReducers({
+export default combineReducers({
   songs: songsReducer,
   selectedSong: selectedSongReducer
 });
